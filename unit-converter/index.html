@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://bootswatch.com/5/vapor/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <!-- <div class="currency-Exchange-Rate">
+
+    </div> -->
+
+
+
+    <div class="unit-converter">
+
+
+        <h1>Unit  Converter</h1>
+
+        
+          <div class="btns">
+            <h4>Select the type of Converter</h4>
+            <button class="length btn-grad btn-grad-1">Length Converter</button>
+            <button class="weight btn-grad btn-grad-2">Weight Converter</button>
+          
+          </div>
+          <div class="select-len select">
+            <select id="select-len">
+                <option value="Centimeters">Centimeters</option>
+                <option value="Meters">Meters</option>
+                <option value="Foot">Foot</option>
+                <option value="Inches">Inches</option>
+            </select>
+            <button class="convert-len">&#10003</button>
+        </div>
+
+         <div class="select">
+            <select id="select">
+                <option value="pounds">Pounds</option>
+                <option value="Grams">Grams</option>
+                <option value="KiloGrams">KiloGrams</option>
+                <option value="Ounces">Ounces</option>
+            </select>
+            <button class="convert">&#10003</button>
+        </div>
+        <div class="input">
+            <input  onfocus=this.value=''  type="number" name="value" id="input" placeholder="Enter weight.......">
+        </div>
+        <div class="input2">
+            <input  onfocus=this.value=''  type="number" name="value" id="input2" placeholder="Enter Height.......">
+        </div>
+       
+        <div class="converter">
+            <div class="card card-1">
+                <h3 class="card-1-content">Grams      :</h3>
+                <div class="output1 output "></div>
+            </div>
+            <div class="card card-2">
+                <h3 class="card-2-content">KiloGrams    :</h3>
+                <div class="output2 output"></div>
+            </div>
+            <div class="card card-3">
+                <h3 class="card-3-content">Ounces       : </h3>
+                <div class="output3 output"></div>
+            </div>
+        </div>
+    </div>
+   
+</body>
+<script src="app.js"></script>
+</html>
+
+<!-- 
+style input tag
+media queries 
+select options
+height, weight , volume etc-->
